@@ -72,9 +72,9 @@ function App() {
           <shadowMaterial attach='material'opacity={0.3} />
         </mesh>
       
-      <SpinningMesh position={[0,1,0]} args={[3,2,1]} color='lightblue' speed={6}  />
-      <SpinningMesh position={[-2,1,-5]} color='pink' speed={2} />
-      <SpinningMesh position={[5,1,-2]} color='pink' speed={2} />
+      <SpinningMesh position={[0,1,0]} args={[3,2,1]} color='lightblue' speed={2} factor={0.7}  />
+      <SpinningMesh position={[-2,1,-5]} color='pink' speed={0.5} />
+      <SpinningMesh position={[5,1,-2]} color='pink' speed={0.5} />
       </group>
 
 
